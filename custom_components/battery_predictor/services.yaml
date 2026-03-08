@@ -1,0 +1,3 @@
+recalculate:
+  name: Recalculate predictions
+  description: Force recalculation of all battery drain predictions.

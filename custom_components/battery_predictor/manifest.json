@@ -1,0 +1,12 @@
+{
+  "domain": "battery_predictor",
+  "name": "Battery Predictor",
+  "codeowners": ["@wroadd"],
+  "config_flow": true,
+  "documentation": "https://github.com/wroadd/ha-battery-predictor",
+  "integration_type": "service",
+  "iot_class": "calculated",
+  "issue_tracker": "https://github.com/wroadd/ha-battery-predictor/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}

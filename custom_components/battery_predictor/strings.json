@@ -1,0 +1,36 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Battery Predictor",
+        "description": "Set up battery drain prediction for your devices.",
+        "data": {
+          "scan_interval": "Scan interval (hours)",
+          "history_days": "History lookback (days)",
+          "low_battery_threshold": "Low battery alert threshold (days)"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Battery Predictor is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Battery Predictor Options",
+        "data": {
+          "scan_interval": "Scan interval (hours)",
+          "history_days": "History lookback (days)",
+          "low_battery_threshold": "Low battery alert threshold (days)"
+        }
+      }
+    }
+  },
+  "services": {
+    "recalculate": {
+      "name": "Recalculate predictions",
+      "description": "Force recalculation of all battery drain predictions."
+    }
+  }
+}
